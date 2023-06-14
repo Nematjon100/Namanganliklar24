@@ -69,20 +69,12 @@ img {
 }
 
 
-/* SITE-HEADER */
-.site-header {
-}
-
-
 /* SITE-HEADER-TOP */
 .site-header-top {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 10px;
   background-color: #F6F6F6;
-}
-
-.container {
 }
 
 .site-header-top-container {
@@ -211,6 +203,13 @@ img {
   opacity: 0.6;
 }
 
+/* SITE-HEADER-BANNER */
 .site-header-banner-link {
   display: flex;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
 }
