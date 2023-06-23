@@ -535,13 +535,14 @@ img {
 .sidebar-ad-img {
   width: 393px;
   height: 338px;
+  object-fit: fill;
   border-radius: 15px;
 }
 
 .sidebar-ad-img-tall {
   height: 553px;
-  object-fit: cover;
-  object-position: top;
+  /* object-fit: cover;
+  object-position: top; */
 }
 
 
@@ -662,8 +663,7 @@ img {
 
 
 /* CONTACT-PAGE */
-.contact-page {
-}
+
 .contact-page-heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -727,8 +727,7 @@ img {
   width: 494px;
   margin-left: 10px;
 }
-.contact-page-definitions-card {
-}
+
 .definitions-card {
   padding: 20px 25px;
   margin: 0;
