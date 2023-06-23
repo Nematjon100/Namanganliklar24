@@ -518,7 +518,7 @@ img {
 
 /* SIDEBAR-AD */
 .sidebar-ad-link {
-  display: block;
+  display: inline-block;
 }
 
 .sidebar-ad-img {
@@ -529,7 +529,8 @@ img {
 
 .sidebar-ad-img-tall {
   height: 553px;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: top;
 }
 
 
